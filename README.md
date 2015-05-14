@@ -1,6 +1,7 @@
 ==========================
-shiguredo-packer-templates
+packer-templates
 ==========================
+forked from: https://github.com/shiguredo/packer-templates
 
 Packer templates for building base VM boxes.
 
@@ -48,3 +49,8 @@ Supported versions
 ------------------
 
 This templates was tested using a packer 0.7.5 .
+
+
+Tested/OK
+-------------------
+All of these templates have been tested for operation by me. 
