@@ -28,10 +28,10 @@
       "type": "vagrant",
       "override": {
         "virtualbox": {
-          "output": "centos-6-4-x64-virtualbox.box"
+          "output": "centos-7-0-x64-virtualbox.box"
         },
         "vmware": {
-          "output": "centos-6-4-x64-vmware.box"
+          "output": "centos-7-0-x64-vmware.box"
         }
       }
     }
@@ -46,9 +46,9 @@
       "disk_size": 40520,
       "guest_os_type": "RedHat_64",
       "http_directory": "http",
-      "iso_checksum": "4a5fa01c81cc300f4729136e28ebe600",
-      "iso_checksum_type": "md5",
-      "iso_url": "http://archive.kernel.org/centos-vault/6.4/isos/x86_64/CentOS-6.4-x86_64-minimal.iso",
+      "iso_checksum": "154ba47b7a37e52e0100310c3aeb8f9d9daf4806",
+      "iso_checksum_type": "sha1",
+      "iso_url": "http://ftp.iij.ad.jp/pub/linux/centos/7.0.1406/isos/x86_64/CentOS-7.0-1406-x86_64-DVD.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -68,11 +68,11 @@
       ],
       "boot_wait": "10s",
       "disk_size": 40520,
-      "guest_os_type": "linux",
+      "guest_os_type": "centos-64",
       "http_directory": "http",
-      "iso_checksum": "4a5fa01c81cc300f4729136e28ebe600",
-      "iso_checksum_type": "md5",
-      "iso_url": "http://ftp.iij.ad.jp/pub/linux/centos/6.4/isos/x86_64/CentOS-6.4-x86_64-minimal.iso",
+      "iso_checksum": "154ba47b7a37e52e0100310c3aeb8f9d9daf4806",
+      "iso_checksum_type": "sha1",
+      "iso_url": "http://ftp.iij.ad.jp/pub/linux/centos/7.0.1406/isos/x86_64/CentOS-7.0-1406-x86_64-DVD.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,

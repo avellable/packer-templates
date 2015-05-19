@@ -30,10 +30,10 @@
       "type": "vagrant",
       "override": {
         "virtualbox": {
-          "output": "ubuntu-13-10-x64-virtualbox.box"
+          "output": "ubuntu-14-04-x64-virtualbox.box"
         },
         "vmware": {
-          "output": "ubuntu-13-10-x64-vmware.box"
+          "output": "ubuntu-14-04-x64-vmware.box"
         }
       }
     }
@@ -58,7 +58,7 @@
         " keyboard-configuration/layout=USA<wait>",
         " keyboard-configuration/variant=USA<wait>",
         " locale=en_US<wait>",
-        " netcfg/get_hostname=ubuntu-1310<wait>",
+        " netcfg/get_hostname=ubuntu-1404<wait>",
         " netcfg/get_domain=vagrantup.com<wait>",
         " noapic<wait>",
         " preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/preseed.cfg<wait>",
@@ -69,9 +69,9 @@
       "disk_size": 40960,
       "guest_os_type": "Ubuntu_64",
       "http_directory": "http",
-      "iso_checksum": "4d1a8b720cdd14b76ed9410c63a00d0e",
+      "iso_checksum": "83aabd8dcf1e8f469f3c72fff2375195",
       "iso_checksum_type": "md5",
-      "iso_url": "http://releases.ubuntu.com/13.10/ubuntu-13.10-server-amd64.iso",
+      "iso_url": "http://releases.ubuntu.com/14.04/ubuntu-14.04.2-server-amd64.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -101,7 +101,7 @@
         " keyboard-configuration/layout=USA<wait>",
         " keyboard-configuration/variant=USA<wait>",
         " locale=en_US<wait>",
-        " netcfg/get_hostname=ubuntu-1310<wait>",
+        " netcfg/get_hostname=ubuntu-1404<wait>",
         " netcfg/get_domain=vagrantup.com<wait>",
         " noapic<wait>",
         " preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/preseed.cfg<wait>",
@@ -112,9 +112,9 @@
       "disk_size": 40960,
       "guest_os_type": "linux",
       "http_directory": "http",
-      "iso_checksum": "4d1a8b720cdd14b76ed9410c63a00d0e",
+      "iso_checksum": "83aabd8dcf1e8f469f3c72fff2375195",
       "iso_checksum_type": "md5",
-      "iso_url": "http://releases.ubuntu.com/13.10/ubuntu-13.10-server-amd64.iso",
+      "iso_url": "http://releases.ubuntu.com/14.04/ubuntu-14.04.2-server-amd64.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
