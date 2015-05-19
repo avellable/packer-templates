@@ -48,5 +48,5 @@ Parallel builds can be run on 0.6.0 or latest packer version.
 Supported versions
 ------------------
 
-This templates was tested using a packer 0.7.5 .
+These templates was tested using a packer 0.7.5 .
 
